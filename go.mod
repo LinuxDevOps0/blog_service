@@ -1,0 +1,1 @@
+module "practice.com/blog_service"
