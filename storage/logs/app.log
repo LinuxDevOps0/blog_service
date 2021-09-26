@@ -1,0 +1,4 @@
+2021/09/26 20:15:18 {"callers":["/root/go/src/practice.com/blog_service/main.go: 22 main.init.0"],"level":"info","message":"yif: go-programming-tour-book/blog_service","time":1632658518355145177}
+2021/09/26 20:16:13 {"callers":["/root/go/src/practice.com/blog_service/main.go: 34 main.main"],"level":"info","message":"yif: go-programming-tour-book/blog_service","time":1632658573444316244}
+2021/09/26 20:17:05 {"callers":["/usr/lib/golang/src/runtime/proc.go: 5652 runtime.doInit"],"level":"info","message":"yif: go-programming-tour-book/blog_service","time":1632658625671694913}
+2021/09/26 20:31:38 {"callers":["/root/go/src/practice.com/blog_service/main.go: 34 main.main"],"level":"info","message":"yif: go-programming-tour-book/blog_service","time":1632659498317595420}

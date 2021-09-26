@@ -2,6 +2,7 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
+	"practice.com/blog_service/internal/router/api"
 	v1 "practice.com/blog_service/internal/router/api/v1"
 )
 
@@ -9,6 +10,9 @@ func NewRouter() *gin.Engine {
 	r := gin.New()
 	r.Use(gin.Logger())
 	r.Use(gin.Recovery())
+
+	pong := api.NewPong()
+	r.GET("/ping", pong.Pong)
 
 	tagV1 := v1.NewTag()
 	articleV1 := v1.NewArticle()
